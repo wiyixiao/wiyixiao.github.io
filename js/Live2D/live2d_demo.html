@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/L2Dwidget.min.js" defer=""></script>
+    <script type="text/javascript" charset="utf-8" async="" src="js/L2Dwidget.0.min.js"></script>
+</head>
+<body>
+
+    <div id="live2d-widget"><canvas id="live2dcanvas" width="200" height="400" style="position: fixed; opacity: 1; right: 0px; bottom: -20px; z-index: 99999; pointer-events: none;"></canvas></div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        L2Dwidget.init({
+            "model": {
+                //jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@latest/assets/shizuku.model.json",
+                "scale": 1
+            },
+            "display": {
+                "position": "right", 
+                "width": 120,  
+                "height": 240, 
+                "hOffset": 0,
+                "vOffset": -20
+            },
+            "mobile": {
+                "show": false,
+                "scale": 0.5
+            },
+            "react": {
+                "opacityDefault": 1.0,
+                "opacityOnHover": 0.2
+            }
+        });
+        
+    })
+
+    </script>
+</body>
+</html>

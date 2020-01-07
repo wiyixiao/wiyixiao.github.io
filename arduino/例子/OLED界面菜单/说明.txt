@@ -1,0 +1,8 @@
+
+
+
+
+
+使用官方ide建议 1.6.8 版本
+
+vs的话可以安装插件：Arduino IDE for Visual Studio

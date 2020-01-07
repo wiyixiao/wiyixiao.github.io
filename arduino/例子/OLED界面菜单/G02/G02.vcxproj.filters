@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G02.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.G02.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modul.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="128x64\SSD1306.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="128x64\ZtLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I2c\Wire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I2c\utility\twi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="I2c\utility\util_twi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modul\buzzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modul\key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modul\led.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modul\oled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="128x64\glcdfont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="128x64\SSD1306.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="128x64\ZtLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2c\Wire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I2c\utility\twi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modul\buzzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modul\led.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="modul\oled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
